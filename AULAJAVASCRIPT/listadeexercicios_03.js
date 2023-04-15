@@ -20,7 +20,8 @@ const formaDePagamento = 4;
 }else if (formaDePagamento === 3){
     console.log(precoEtiqueta);
 }else if (formaDePagamento === 4){
-    console.log(precoEtiqueta + (precoEtiqueta * 0.1));
+    console.log(precoEtiqueta + (precoEtiqueta 
+        * 0.1));
 }else if(formaDePagamento >=5){
     console.log('opção é do 1 ao 4!.');
 }
